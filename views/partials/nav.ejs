@@ -5,13 +5,17 @@
     </a>
     <p>Go Beyond The Thinking</p>
   </div>
-  <ul class="nav-menu">
+  <ul>
     <li><a href="/blogs">Blogs</a></li>
     <li><a href="/about">About</a></li>
     <% if (currentUser) { %>
       <li><a href="/blogs/create">New Blog</a></li>
       <li><a href="/blogs/my">My Blogs</a></li>
       <li><a href="/logout">Logout</a></li>
+      <!-- Username inside nav on the right -->
+      <li class="welcome-nav-item">
+        <span class="welcome-username">Welcome, <%= currentUsername %>!</span>
+      </li>
       <% } else { %>
         <li><a href="/login">Login</a></li>
         <li><a href="/signup">Sign Up</a></li>
@@ -19,9 +23,3 @@
   </ul>
 </nav>
 
-<!-- Username positioned further right -->
-<% if (currentUser) { %>
-  <div class="welcome-user">
-    Welcome, <%= currentUsername %>!
-  </div>
-  <% } %>
