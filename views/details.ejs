@@ -1,0 +1,24 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+  <body>
+    <%- include("./partials/nav.ejs") %>
+
+      <div class="details content">
+        <h2>
+          <%= blog.title %>
+        </h2>
+        <p style="color: #667eea; font-size: 1em; margin-bottom: 20px; font-weight: 500;">
+          Written by: <%= blog.author.username %>
+        </p>
+        <div class="content">
+          <p>
+            <%= blog.body %>
+          </p>
+        </div>
+      </div>
+
+      <%- include("./partials/footer.ejs") %>
+  </body>
+
+</html>
