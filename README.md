@@ -52,7 +52,7 @@ A modern, full-stack blogging application built with Node.js, Express, MongoDB, 
 ### 1. Clone the Repository
 git clone https://github.com/your-username/letsblog.git
 
-cd letsblog
+open the folder location
 
 ### 2. Install Dependencies
 npm install
