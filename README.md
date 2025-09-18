@@ -2,11 +2,11 @@
 
 A modern, full-stack blogging application built with Node.js, Express, MongoDB, and EJS. Features user authentication, responsive design, and beautiful UI with glassmorphism effects.
 
-## 🌐 Live Demo
+##  Live Demo
 
 **Website URL:** [https://letsblog-production-c448.up.railway.app/](http://letsblog-production-c448.up.railway.app/)
 
-## ✨ Features
+##  Features
 
 - **User Authentication** - Secure signup/login with sessions
 - **Personal Blogs** - Create, edit, and delete your own blogs
@@ -16,7 +16,7 @@ A modern, full-stack blogging application built with Node.js, Express, MongoDB, 
 - **User Management** - Unique usernames and profile display
 - **Real-time Updates** - Auto-deployment from GitHub
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB Atlas (Cloud)
@@ -25,7 +25,7 @@ A modern, full-stack blogging application built with Node.js, Express, MongoDB, 
 - **Deployment:** Railway Platform
 - **Version Control:** Git & GitHub
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Homepage
 - Clean, modern blog listing
@@ -42,7 +42,7 @@ A modern, full-stack blogging application built with Node.js, Express, MongoDB, 
 - Rich text editing interface
 - User-specific blog management
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -51,6 +51,7 @@ A modern, full-stack blogging application built with Node.js, Express, MongoDB, 
 
 ### 1. Clone the Repository
 git clone https://github.com/your-username/letsblog.git
+
 cd letsblog
 
 ### 2. Install Dependencies
